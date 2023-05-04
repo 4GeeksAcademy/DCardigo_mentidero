@@ -33,7 +33,7 @@ body {
 #excuse {
   border: 5px solid rgb(8, 158, 228);
   border-radius: 10px;
-  margin: 80px 400px 0 400px;
+  margin: 80px 250px 0 250px;
   background-color: aliceblue;
 
   /* Sombra exterior*/
@@ -45,8 +45,9 @@ body {
   -moz-box-shadow: inset 10px 7px 45px -10px rgba(0, 0, 0, 0.71);
   box-shadow: inset 10px 7px 45px -10px rgba(0, 0, 0, 0.71);
 
-  padding: 10px;
+  padding-top: 28px;
   height: 100px;
+  font-family: Helvetica, sans-serif, Arial;
   font-size: 25px;
 }
 
@@ -128,4 +129,9 @@ body {
   -moz-border-radius: 121px 121px 121px 121px;
   -webkit-border-radius: 121px 121px 121px 121px;
   border: 0px solid #000000;
+}
+
+#btn-volumen:active {
+  transform: scale(0.98);
+  box-shadow: 0 5px #666;
 }

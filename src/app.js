@@ -32,11 +32,11 @@ var que = [
   "mi disfraz de halloween "
 ];
 var cuando = [
-  "mientras dormia ",
-  "al amanecer ",
-  "en la comunión de mi primo ",
-  "en clase de plástica ",
-  "en la siesta "
+  "mientras dormia. ",
+  "al amanecer. ",
+  "en la comunión de mi primo. ",
+  "en clase de plástica. ",
+  "en la siesta. "
 ];
 
 function frase() {
